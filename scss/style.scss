@@ -1,0 +1,45 @@
+@import "colors";
+@import "fonts";
+
+.navbar {
+    background-color: $primary-background-color;
+    .navbar-brand {
+        font-family: $primary-font;
+        font-size: 4rem;
+    }
+    li {
+        font-family: $secondary-font;
+    }
+}
+header {
+    background-image: url(../images/banner.jpg);
+}
+section {
+    background-color: $secondary-background-color;
+    h1 {
+        font-family: $secondary-font;
+        font-size: 2.7rem;
+    }
+    h5 {
+        font-family: $secondary-font;
+    }
+    .see-more {
+        display: flex;
+        justify-content: center;
+        font-family: $secondary-font;
+    }
+    .item {
+        color: $secondary-font-color;
+        font-family: $secondary-font;
+    }
+    .card {
+        outline: 3px solid #031869;
+        transition: outline 1s ease 0s;
+        }
+    .card:hover {
+        outline: 4px solid #fd6019;
+    }
+}
+footer {
+    font-family: $secondary-font;
+}
